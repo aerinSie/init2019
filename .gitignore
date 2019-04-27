@@ -4,5 +4,5 @@
 .idea/workspace.xml
 dependency-reduced-pom.xml
 gs-maven.iml
-out/production/test/com/company/JDBC_mysql.class
+out/
 target/
