@@ -23,6 +23,7 @@ public class JDBC_mysql {
                 String column2 = rs.getString("column2");
                 System.out.print("column1: " + column1);
                 System.out.print(", column2: " + column2);
+                System.out.println();
             }
             rs.close();
             stmt.close();
