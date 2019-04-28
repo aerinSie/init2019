@@ -1,8 +1,13 @@
 *.tmp
 *.jar
+
 .idea/
-.idea/workspace.xml
-dependency-reduced-pom.xml
-test-maven.iml
 out/
 target/
+
+dependency-reduced-pom.xml
+test.iml
+
+.idea/misc.xml
+.idea/workspace.xml
+
