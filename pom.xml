@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>gs-maven</artifactId>
+    <artifactId>test</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0</version>
 
@@ -14,13 +14,6 @@
     </properties>
 
     <dependencies>
-        <!-- tag::joda[] -->
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-        <!-- end::joda[] -->
         <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
@@ -31,8 +24,9 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.13</version>
+            <version>8.0.15</version>
         </dependency>
+
 
         <!-- tag::junit[] -->
         <dependency>

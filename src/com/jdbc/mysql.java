@@ -1,8 +1,8 @@
-package com.company;
+package com.jdbc;
 
 import java.sql.*;
 
-public class JDBC_mysql {
+public class mysql {
     static final String DB_URL = "jdbc:mysql://localhost:3306/db?allowPublicKeyRetrieval=true&useSSL=false";
     static final String USER = "root";
     static final String PASS = "root";
@@ -11,7 +11,7 @@ public class JDBC_mysql {
         Connection conn = null;
         Statement stmt = null;
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(DB_URL,USER,PASS);
             stmt = conn.createStatement();
             String sql;

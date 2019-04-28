@@ -3,6 +3,6 @@
 .idea/
 .idea/workspace.xml
 dependency-reduced-pom.xml
-gs-maven.iml
+test-maven.iml
 out/
 target/

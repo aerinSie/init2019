@@ -1,10 +1,10 @@
-package com.company;
+package com.jdbc;
 
 import java.sql.*;
 
-public class JDBC {
+public class mariadb {
 
-    static final String DB_URL = "jdbc:mariadb://localhost:3306/DB";
+    static final String DB_URL = "jdbc:mariadb://localhost:33061/DB";
     static final String USER = "root";
     static final String PASS = "root";
 
